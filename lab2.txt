@@ -1,2 +1,8 @@
 Answer written questions 1 and 2 here.
 
+1. SFML is coordinate system where(0,0) is at the top-left. 
+    As x increase, it goes right. As Y increase, it goes down. 
+    Which makes the angle calculations is opssite to normal math.
+
+2. The benefit of this degine is to easy to debug and test. 
+    Since the degine is set to two things doing two different things, if one of them has an error, it won't cause everything else to crash and can be easily find what/where went wrong.
